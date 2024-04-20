@@ -1,0 +1,24 @@
+{
+	"condition": "minecraft:all_of",
+	"terms": [
+		{
+			"condition": "minecraft:value_check",
+			"range": {
+				"max": 80
+			},
+			"value": {
+				"type": "minecraft:score",
+				"score": "ko.oic.data",
+				"target": {
+					"type": "minecraft:fixed",
+					"name": "#ko.oic.global.block.score"
+				},
+				"scale": 1
+			}
+		},
+		{
+			"condition": "minecraft:reference",
+			"name": "ko.oneinfcube:block_is_air"
+		}
+	]
+}

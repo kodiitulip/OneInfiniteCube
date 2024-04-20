@@ -1,0 +1,11 @@
+execute if predicate ko.oneinfcube:b_chance/15 run setblock ~ ~ ~ oak_log
+execute if predicate ko.oneinfcube:b_chance/15 run setblock ~ ~ ~ oak_leaves[persistent=true]
+execute if predicate ko.oneinfcube:b_chance/15 run setblock ~ ~ ~ birch_log
+execute if predicate ko.oneinfcube:b_chance/15 run setblock ~ ~ ~ birch_leaves[persistent=true]
+execute if predicate ko.oneinfcube:b_chance/20 run setblock ~ ~ ~ moss_block
+execute if predicate ko.oneinfcube:b_chance/25 run setblock ~ ~ ~ coarse_dirt
+execute if predicate ko.oneinfcube:b_chance/25 run setblock ~ ~ ~ podzol
+execute if predicate ko.oneinfcube:b_chance/15 run setblock ~ ~ ~ gravel
+execute if predicate ko.oneinfcube:b_chance/05 run setblock ~ ~ ~ suspicious_gravel{LootTable:"minecraft:archaeology/trail_ruins_common"}
+execute if predicate ko.oneinfcube:b_chance/25 run setblock ~ ~ ~ dirt
+execute if predicate ko.oneinfcube:b_chance/fu run setblock ~ ~ ~ grass_block

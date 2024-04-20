@@ -1,0 +1,36 @@
+{
+	"display": {
+		"title": "One Infinite Cube",
+		"description": "",
+		"icon": {
+			"item": "minecraft:grass_block"
+		},
+		"background": "minecraft:textures/block/oak_planks.png",
+		"show_toast": true,
+		"announce_to_chat": false
+	},
+	"criteria": {
+		"trigger": {
+			"trigger": "minecraft:tick",
+			"conditions": {
+				"player": [
+					{
+						"condition": "minecraft:value_check",
+						"range": {
+							"min": 1
+						},
+						"value": {
+							"type": "minecraft:score",
+							"score": "ko.oic.data",
+							"target": {
+								"type": "minecraft:fixed",
+								"name": "#ko.oic.global.generators"
+							},
+							"scale": 1
+						}
+					}
+				]
+			}
+		}
+	}
+}

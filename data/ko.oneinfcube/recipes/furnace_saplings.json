@@ -1,0 +1,9 @@
+{
+	"type": "minecraft:smelting",
+	"ingredient": {
+		"item": "minecraft:coarse_dirt"
+	},
+	"result": "minecraft:oak_sapling",
+	"experience": 0,
+	"cookingtime": 50
+}

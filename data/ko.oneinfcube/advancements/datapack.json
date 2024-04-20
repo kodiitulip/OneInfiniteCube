@@ -1,0 +1,25 @@
+{
+    "display": {
+        "title": "One Infinite Cube",
+        "description": "A Oneblock experience, withe structure generation and custom recipes!",
+        "icon": {
+            "item": "minecraft:grass_block"
+        },
+        "announce_to_chat": false,
+        "show_toast": false
+    },
+    "parent": "global:its.kodiee",
+    "criteria": {
+        "trigger": {
+            "trigger": "minecraft:tick",
+			"conditions": {
+				"player": [
+					{
+						"condition": "minecraft:reference",
+						"name": "ko.oneinfcube:is_installed"
+					}
+				]
+			}
+        }
+    }
+}

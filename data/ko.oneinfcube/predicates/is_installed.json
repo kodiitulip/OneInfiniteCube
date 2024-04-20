@@ -1,0 +1,15 @@
+{
+	"condition": "minecraft:value_check",
+	"range": {
+		"min": 1
+	},
+	"value": {
+		"type": "minecraft:score",
+		"target": {
+			"type": "minecraft:fixed",
+			"name": "#ko.oic.global.generators"
+		},
+		"score": "ko.oic.data",
+		"scale": 1
+	}
+}

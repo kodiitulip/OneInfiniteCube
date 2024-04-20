@@ -1,0 +1,12 @@
+execute if predicate ko.oneinfcube:b_chance/25 run setblock ~ ~ ~ stone
+execute if predicate ko.oneinfcube:b_chance/15 run setblock ~ ~ ~ coal_ore
+execute if predicate ko.oneinfcube:b_chance/20 run setblock ~ ~ ~ dripstone_block
+execute if predicate ko.oneinfcube:b_chance/10 run setblock ~ ~ ~ iron_ore
+execute if predicate ko.oneinfcube:b_chance/20 run setblock ~ ~ ~ andesite
+execute if predicate ko.oneinfcube:b_chance/15 run setblock ~ ~ ~ moss_block
+execute if predicate ko.oneinfcube:b_chance/25 run setblock ~ ~ ~ dirt
+execute if predicate ko.oneinfcube:b_chance/25 run setblock ~ ~ ~ copper_ore
+execute if predicate ko.oneinfcube:b_chance/15 run setblock ~ ~ ~ gravel
+execute if predicate ko.oneinfcube:b_chance/05 run setblock ~ ~ ~ chest{LootTable:"minecraft:chests/simple_dungeon"}
+execute if predicate ko.oneinfcube:b_chance/15 run setblock ~ ~ ~ lapis_ore
+execute if predicate ko.oneinfcube:b_chance/fu run setblock ~ ~ ~ stone

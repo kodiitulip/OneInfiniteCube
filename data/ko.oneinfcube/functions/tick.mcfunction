@@ -1,0 +1,1 @@
+execute if predicate ko.oneinfcube:is_installed as @e[type=marker, tag=ko.oic.generator.marker, predicate=ko.oneinfcube:is_able_to_generate] at @s run function ko.oneinfcube:generators/generate

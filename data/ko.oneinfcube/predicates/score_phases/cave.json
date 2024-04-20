@@ -1,0 +1,16 @@
+{
+	"condition": "minecraft:value_check",
+	"range": {
+		"min": 81,
+		"max": 220
+	},
+	"value": {
+		"type": "minecraft:score",
+		"score": "ko.oic.data",
+		"target": {
+			"type": "minecraft:fixed",
+			"name": "#ko.oic.global.block.score"
+		},
+		"scale": 1
+	}
+}

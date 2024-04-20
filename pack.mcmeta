@@ -1,0 +1,25 @@
+{
+	"pack": {
+		"pack_format": 15,
+		"description": [
+			{
+				"text": "♦ One Ifinite Cube ♦",
+				"color": "#10aaaa",
+				"bold": false,
+				"italic": false,
+				"underlined": false,
+				"strikethrough": false,
+				"obfuscated": false
+			},
+			{
+				"text": "by ItsKodiee",
+				"color": "#bbbbbb",
+				"bold": false,
+				"italic": false,
+				"underlined": false,
+				"strikethrough": false,
+				"obfuscated": false
+			}
+		]
+	}
+}
